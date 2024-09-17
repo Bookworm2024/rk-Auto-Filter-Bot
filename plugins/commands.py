@@ -66,14 +66,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🌿 ꜱᴜᴘᴘᴏʀᴛ', callback_data="my_about"),
-                    InlineKeyboardButton('👤 ᴏᴡɴᴇʀ', callback_data='my_owner')
+                    InlineKeyboardButton('🌿 ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ', callback_data="my_about"),
+                    InlineKeyboardButton('👤 ᴅᴇᴛᴀɪʟꜱ', callback_data='my_owner')
                 ],[
-                    InlineKeyboardButton('🍁 ғᴇᴀᴛᴜʀᴇs', callback_data='help'),
+                    InlineKeyboardButton('🍁 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='help'),
                     InlineKeyboardButton('🔐 ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium')
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💰', callback_data='earn'),
-                    InlineKeyboardButton('🔥 ʀᴇQᴜᴇꜱᴛ ʜᴇʀᴇ 🔥', url=FILMS_LINK)
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ', callback_data='earn'),
+                    InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ', url=FILMS_LINK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
