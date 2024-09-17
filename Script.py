@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+ɪ ᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ.\n\nᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴅᴅ ᴍᴇ ɪɴᴛᴏ ᴛʜᴇɪʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴛʜᴇʀᴇ ᴀꜱ ᴡᴇʟʟ! 🍂😈</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: RK Bots
-★ Username: @Rk_botowner
-★ Update Channel : @Rkbotz"""
+    MY_OWNER_TXT = """★ Name: 𝕴𝖓𝖋𝖔𝖍𝖚𝖇 𝖀𝖕𝖉𝖆𝖙𝖊𝖘
+★ Username: @infohub_updates
+★ Update Channel : @infohub_updates"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -43,11 +43,11 @@ Total - <code>{}</code>"""
 
     NOT_FILE_TXT = """👋 Hello {},
 
-I can't find the <b>{}</b> in my database! 🥲
+I can't find the <b>{}</b> file in my database! 🥲
 
-👉 Google Search and check your spelling is correct.
-👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+👉 Search using Google and check if your spelling is correct.
+👉 Please read the Instructions properly to get better results.
+👉 Or it might be possible that the movie or webseries has not been released yet."""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -71,7 +71,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 ➥ ᴇxᴀᴍᴘʟᴇ ↓↓↓
 
-<code>/set_shortlink onepagelink.in f646357aa129cfbd7eb59bcba428096ab54ca950</code>
+<code>/set_shortlink onepagelink.in f646357aa129cfbd7eb59bcba428........</code>
 
 ➥ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜɪᴄʜ sʜᴏʀᴛᴇɴᴇʀ ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇɴᴅ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ /get_shortlink
 
@@ -95,7 +95,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
-    HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
+    HELP_TXT = """<b>Note - <spoiler>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴍᴀɪɴᴛᴀɪɴ ʙᴏᴛ ᴇꜰꜰɪᴄɪᴇɴᴄʏ, ᴅᴏ ɴᴏᴛ ꜱᴘᴀᴍ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ! ⚡</spoiler></b>"""
     
     ADMIN_COMMAND_TXT = """<b>Here is bot admin commands 👇
 
@@ -136,8 +136,8 @@ I can't find the <b>{}</b> in my database! 🥲
 
     SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
 
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/Rishikesh-Sharma09/Auto-Filter-Bot>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/infohub_updates>ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @Rkbotz"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @the_universal_being"""
