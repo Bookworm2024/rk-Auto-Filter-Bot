@@ -68,11 +68,11 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://infohubstore06:PMTuMwpHX1nwsi5w@cluster1947.rcboi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1947") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://infohubstore06:07uxQMbU9oDF2b6i@cluster2003.i8vbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2003") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1947")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster2003")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
@@ -116,7 +116,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/wLE.jpg') #telegraph link of your QR code 
 UPI_ID = environ.get('UPI_ID', 'rajsom8877@oksbi') # Add your upi id here
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
+IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002465123057") #if is_stream = true then add a channel id ex: -10026393639
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
