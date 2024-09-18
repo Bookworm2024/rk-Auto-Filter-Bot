@@ -134,7 +134,7 @@ I can't find the <b>{}</b> file in my database! 🥲
 /my_plan - to check your plan details
 /plans - to get plan details</b>"""
 
-    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
+    SOURCE_TXT = """<b>ɪ ᴀᴍ ɴᴏᴛ ꜰᴏʀ ꜱᴀʟᴇ!!
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
