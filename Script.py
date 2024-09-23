@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ɪ ᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ.\n\nᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴅᴅ ᴍᴇ ɪɴᴛᴏ ᴛʜᴇɪʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴛʜᴇʀᴇ ᴀꜱ ᴡᴇʟʟ! 🍂😈</b>"""
+"ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖍𝖊𝖆𝖙𝖗𝖊!! 🎭 ɪ ᴀᴍ ʏᴏᴜʀ ᴅᴀʀᴋ ᴍᴀᴇꜱᴛʀᴏ, ʜᴇʀᴇ ᴛᴏ ᴅᴇʟɪᴠᴇʀ ᴛʜᴇ ʙᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ᴡᴇʙꜱᴇʀɪᴇꜱ ꜱᴛʀᴀɪɢʜᴛ ᴛᴏ ʏᴏᴜʀ ʟᴀɪʀ.\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ <b>'ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ'</b> ᴀɴᴅ ꜱᴜᴍᴍᴏɴ ᴍᴇ ᴡɪᴛʜ ᴛʜᴇ /settings ᴄᴏᴍᴍᴀɴᴅ.\n\nᴏɴᴄᴇ ᴜɴʟᴇᴀꜱʜᴇᴅ, ᴘʀᴇᴘᴀʀᴇ ᴛᴏ ᴡɪᴛɴᴇꜱꜱ ᴍʏ ᴡɪᴄᴋᴇᴅ ᴘᴏᴡᴇʀꜱ ɪɴ ꜰᴜʟʟ ꜰᴏʀᴄᴇ! 😈🍿</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
@@ -91,13 +91,13 @@ I can't find the <b>{}</b> file in my database! 🥲
 
     FILE_CAPTION = """<i>{file_name}</i>
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
+🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ / ꜱᴇʀɪᴇꜱ 🚫"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
-    HELP_TXT = """<b>Note - <spoiler>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴍᴀɪɴᴛᴀɪɴ ʙᴏᴛ ᴇꜰꜰɪᴄɪᴇɴᴄʏ, ᴅᴏ ɴᴏᴛ ꜱᴘᴀᴍ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ! ⚡</spoiler></b>"""
+    HELP_TXT = """<b>𝕽𝖊𝖒𝖎𝖓𝖉𝖊𝖗 : <spoiler><i>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴍᴀɪɴᴛᴀɪɴ ʙᴏᴛ ᴇꜰꜰɪᴄɪᴇɴᴄʏ, ᴅᴏ ɴᴏᴛ ꜱᴘᴀᴍ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ! ⚡</i></spoiler></b>"""
     
-    ADMIN_COMMAND_TXT = """<b>Here is bot admin commands 👇
+    ADMIN_COMMAND_TXT = """<b>Here are the commands for bot admins 👇
 
 /index_channels - to check how many index channel id added
 /stats - to get bot status
@@ -120,7 +120,7 @@ I can't find the <b>{}</b> file in my database! 🥲
 /add_premium - to add user in premium
 /remove_premium - to remove user from premium</b>"""
     
-    USER_COMMAND_TXT = """<b>Here is bot user commands 👇
+    USER_COMMAND_TXT = """<b>Here are the commands for bot users 👇
 
 /start - to check bot alive or not
 /settings - to change group settings as your wish
@@ -138,6 +138,6 @@ I can't find the <b>{}</b> file in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/infohub_updates>ʜᴇʀᴇ</a>
+- ᴜᴘᴅᴀᴛᴇꜱ - <a href=https://t.me/infohub_updates>ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @the_universal_being"""
+- ᴅᴀᴅᴅʏ - @the_universal_being"""
