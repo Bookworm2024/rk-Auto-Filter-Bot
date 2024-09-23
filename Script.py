@@ -12,12 +12,24 @@ class script(object):
 ★ Username: @infohub_updates
 ★ Update Channel : @infohub_updates"""
 
-    STATUS_TXT = """🗂 Total Files: <code>{}</code>
+    STATUS_TXT = """<b>Tᴏᴛᴀʟ Fɪʟᴇs Fʀᴏᴍ Bᴏᴛʜ DBs: <code>{}</code>
+
+    Bᴏᴛ Usᴇʀs ᴀɴᴅ Cʜᴀᴛs Cᴏᴜɴᴛ
 👤 Total Users: <code>{}</code>
 👥 Total Chats: <code>{}</code>
+
+Pʀɪᴍᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs 
+★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+
+Sᴇᴄᴏɴᴅᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs
+★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ✨ Used Storage: <code>{}</code>
-🗳 Free Storage: <code>{}</code>
-🚀 Bot Uptime: <code>{}</code>"""
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+
+🚀 Bot Uptime: <code>{}</code>
+</b>"""
 
     NEW_GROUP_TXT = """#NewGroup
 Title - {}
