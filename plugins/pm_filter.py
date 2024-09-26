@@ -132,15 +132,15 @@ async def pm_search(client, message):
         files, n_offset, total = await get_search_results(message.text)
         if int(total) != 0:
             btn = [[
-                InlineKeyboardButton("Here", url=FILMS_LINK)
+                InlineKeyboardButton("ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎉", url=FILMS_LINK)
             ]]
-            await message.reply_text(f'ʏᴏᴜ ᴡɪʟʟ ɴᴏᴛ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ ᴅɪʀᴇᴄᴛʟʏ, ʙᴜᴛ ᴅᴏ ɴᴘᴛ ᴡᴏʀʀʏ! ᴊᴏɪɴ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛꜱ.\n\nʜᴏᴡᴇᴠᴇʀ, {total} ʀᴇꜱᴜʟᴛꜱ ʜᴀᴠᴇ ʙᴇᴇɴ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ ꜰᴏʀ ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ. ᴊᴏɪɴ ᴀɴᴅ ʀᴇQᴜᴇꜱᴛ ᴛʜᴇʀᴇ, ɴᴏᴡ!!!', reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f'ʜᴏʟᴅ ᴏɴ! ɪ ᴀᴍ ɴᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ᴛᴀᴋᴇ ᴏɴ ᴍᴏᴠɪᴇ/ ꜱᴇʀɪᴇꜱ ʀᴇQᴜᴇꜱᴛꜱ ᴅɪʀᴇᴄᴛʟʏ. ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ "ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ" ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴏ ᴛʜᴇʀᴇ ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ/ ꜱᴇʀɪᴇꜱ\n\ᴘʟᴇᴀꜱᴇ ɴᴏᴛᴇ, ᴛʜᴇʀᴇ ᴀʀᴇ {total} ꜰɪʟᴇꜱ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴛʜᴀᴛ ᴍᴀᴛᴄʜ ᴛʜᴇ ᴡᴏʀᴅꜱ ʏᴏᴜ ᴊᴜꜱᴛ ᴛʏᴘᴇᴅ ʜᴇʀᴇ. ᴊᴏɪɴ ᴍʏ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ ɴᴏᴡ!!', reply_markup=InlineKeyboardMarkup(btn))
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"Hello {query.from_user.first_name},\nDon't Click Other Results!", show_alert=True)
+        return await query.answer(f"Hello {query.from_user.first_name},\nDon't click on others requests!", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -161,7 +161,7 @@ async def next_page(bot, query):
         return
     temp.FILES[key] = files
     settings = await get_settings(query.message.chat.id)
-    del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs</b>" if settings["auto_delete"] else ''
+    del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs</b>" if settings["auto_delete"] else ''
     files_link = ''
 
     if settings['links']:
@@ -536,16 +536,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.answer('Welcome!')
         buttons = [[
-            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton('🌿 ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ', callback_data="my_about"),
-            InlineKeyboardButton('👤 ᴅᴇᴛᴀɪʟꜱ', callback_data='my_owner')
+            InlineKeyboardButton('𝕷𝖊𝖉𝖌𝖊𝖗 🩸', callback_data="my_about"),
+            InlineKeyboardButton('𝕽𝖊𝖛𝖊𝖑𝖆𝖙𝖎𝖔𝖓𝖘 👁️', callback_data='my_owner')
         ],[
-            InlineKeyboardButton('🍁 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='help'),
-            InlineKeyboardButton('🔐 ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium')
+            InlineKeyboardButton('𝕯𝖊𝖈𝖗𝖊𝖊 😈', callback_data='help'),
+            InlineKeyboardButton('𝕰𝖑𝖎𝖙𝖊 👹', callback_data='buy_premium')
         ],[
-            InlineKeyboardButton('💰 ᴇᴀʀɴ', callback_data='earn'),
-            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ', url=FILMS_LINK)
+            InlineKeyboardButton('𝕲𝖗𝖎𝖋𝖙 💸', callback_data='earn'),
+            InlineKeyboardButton('𝕮𝖔𝖛𝖊𝖓 🕯️', url=FILMS_LINK)
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
