@@ -536,7 +536,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.answer('Welcome!')
         buttons = [[
-            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
             InlineKeyboardButton('𝕷𝖊𝖉𝖌𝖊𝖗 🩸', callback_data="my_about"),
             InlineKeyboardButton('𝕽𝖊𝖛𝖊𝖑𝖆𝖙𝖎𝖔𝖓𝖘 👁️', callback_data='my_owner')
