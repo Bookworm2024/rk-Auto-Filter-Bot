@@ -68,11 +68,11 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://infohubstore06:W95r8RUpCbcNZiYu@asphaltone.xzwek.mongodb.net/?retryWrites=true&w=majority&appName=asphaltone") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://infohubstore06:A8YWSRxx4A3S2I12@asphaltfour.8sw7h.mongodb.net/?retryWrites=true&w=majority&appName=asphaltfour") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "asphaltone")
+DATABASE_NAME = environ.get('DATABASE_NAME', "asphaltfour")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
