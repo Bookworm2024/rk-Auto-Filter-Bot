@@ -3,12 +3,12 @@ class script(object):
     
 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖍𝖊𝖆𝖙𝖗𝖊!! 🎭 ɪ ᴀᴍ ʏᴏᴜʀ ᴅᴀʀᴋ ᴍᴀᴇꜱᴛʀᴏ, ʜᴇʀᴇ ᴛᴏ ᴅᴇʟɪᴠᴇʀ ᴛʜᴇ ʙᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ᴡᴇʙꜱᴇʀɪᴇꜱ ꜱᴛʀᴀɪɢʜᴛ ᴛᴏ ʏᴏᴜʀ ʟᴀɪʀ.\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ <b>'ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ'</b> ᴀɴᴅ ꜱᴜᴍᴍᴏɴ ᴍᴇ ᴡɪᴛʜ ᴛʜᴇ /settings ᴄᴏᴍᴍᴀɴᴅ.\n\nᴏɴᴄᴇ ᴜɴʟᴇᴀꜱʜᴇᴅ, ᴘʀᴇᴘᴀʀᴇ ᴛᴏ ᴡɪᴛɴᴇꜱꜱ ᴍʏ ᴡɪᴄᴋᴇᴅ ᴘᴏᴡᴇʀꜱ ɪɴ ꜰᴜʟʟ ꜰᴏʀᴄᴇ! 😈🍿</b>"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
+    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>ʜᴇʀᴏᴋᴜ</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
-★ Language: <a href=https://www.python.org>Python</a>
+★ Language: <a href=https://www.python.org>Python 3</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: 𝕴𝖓𝖋𝖔𝖍𝖚𝖇 𝖀𝖕𝖉𝖆𝖙𝖊𝖘
+    MY_OWNER_TXT = """★ Name: ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ
 ★ Username: @infohub_updates
 ★ Update Channel : @infohub_updates"""
 
