@@ -64,7 +64,7 @@ async def start(client, message):
     
     if (len(message.command) != 2) or (len(message.command) == 2 and message.command[1] == 'start'):
         buttons = [[
-            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('𝕷𝖊𝖉𝖌𝖊𝖗 🩸', callback_data="my_about"),
                     InlineKeyboardButton('𝕽𝖊𝖛𝖊𝖑𝖆𝖙𝖎𝖔𝖓𝖘 👁️', callback_data='my_owner')
