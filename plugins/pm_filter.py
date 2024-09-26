@@ -11,6 +11,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid, ChatAdminRequired
 from utils import get_size, is_subscribed, is_check_admin, get_wish, get_shortlink, get_verify_status, update_verify_status, get_readable_time, get_poster, temp, get_settings, save_group_settings , imdb
 from database.users_chats_db import db
+from database.users_chat_second_db import second_db
 from database.ia_filterdb import Media, get_file_details, get_search_results,delete_files
 from fuzzywuzzy import process
 
@@ -576,11 +577,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         chats = await db.total_chat_count()
         u_size = get_size(await db.get_db_size())
         f_size = get_size(536870912 - await db.get_db_size())
+        u_sizetwo = get_size(await second_db.get_db_size())
+        f_sizetwo = get_size(536870912 - await db.get_db_size())
         uptime = get_readable_time(time.time() - temp.START_TIME)
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='my_about')
         ]]
-        await query.message.edit_text(script.STATUS_TXT.format(files, users, chats, u_size, f_size, uptime), reply_markup=InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(script.STATUS_TXT.format(files, users, chats, u_sizeone, f_sizeone, u_sizetwo, f_sizetwo, uptime), reply_markup=InlineKeyboardMarkup(buttons)
         )
         
     elif query.data == "my_owner":
