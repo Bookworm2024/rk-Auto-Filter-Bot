@@ -64,16 +64,16 @@ async def start(client, message):
     
     if (len(message.command) != 2) or (len(message.command) == 2 and message.command[1] == 'start'):
         buttons = [[
-            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🌿 ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ', callback_data="my_about"),
-                    InlineKeyboardButton('👤 ᴅᴇᴛᴀɪʟꜱ', callback_data='my_owner')
+                    InlineKeyboardButton('𝕷𝖊𝖉𝖌𝖊𝖗 🩸', callback_data="my_about"),
+                    InlineKeyboardButton('𝕽𝖊𝖛𝖊𝖑𝖆𝖙𝖎𝖔𝖓𝖘 👁️', callback_data='my_owner')
                 ],[
-                    InlineKeyboardButton('🍁 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='help'),
-                    InlineKeyboardButton('🔐 ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium')
+                    InlineKeyboardButton('𝕯𝖊𝖈𝖗𝖊𝖊 😈', callback_data='help'),
+                    InlineKeyboardButton('𝕰𝖑𝖎𝖙𝖊 👹', callback_data='buy_premium')
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ', callback_data='earn'),
-                    InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ', url=FILMS_LINK)
+                    InlineKeyboardButton('𝕲𝖗𝖎𝖋𝖙 💸', callback_data='earn'),
+                    InlineKeyboardButton('𝕮𝖔𝖛𝖊𝖓 🕯️', url=FILMS_LINK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
