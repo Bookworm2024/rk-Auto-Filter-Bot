@@ -245,8 +245,8 @@ async def stats(bot, message):
     chats = await db.total_chat_count()
     u_sizeone = get_size(await db.get_db_size())
     f_sizeone = get_size(536870912 - await db.get_db_size())
-    u_sizetwo = get_size(await second_db.get_db_size())
-    f_sizetwo = get_size(536870912 - await db.get_db_size())
+    u_sizetwo = get_size(await second_db.get_db_size_second_db())
+    f_sizetwo = get_size(536870912 - await db.get_db_size_second_db())
     uptime = get_readable_time(time.time() - temp.START_TIME)
     await msg.edit(script.STATUS_TXT.format(files, users, chats, u_sizeone, f_sizeone, u_sizetwo, f_sizetwo, uptime))    
     
