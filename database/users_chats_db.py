@@ -160,7 +160,7 @@ class Database:
         return self.grp.find({})
     
     async def get_db_size(self):
-        return (await second_mydb.command("dbstats"))['dataSize']
+        return (await mydb.command("dbstats"))['dataSize']
    
     
     async def get_user(self, user_id):
