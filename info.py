@@ -88,13 +88,6 @@ if len(DATABASE_URL) == 0:
 DATABASE_NAME = environ.get("DATABASE_NAME", "asphaltfour")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Files")
 
-DATABASE_URL_SECOND = environ.get("DATABASE_URL_SECOND", "mongodb+srv://infohubstore06:3G4NSNp5ibfi54aO@asphaltthree.yppgw.mongodb.net/?retryWrites=true&w=majority&appName=asphaltthree")  # mongo db url
-if len(DATABASE_URL_SECOND) == 0:
-    print("Error - DATABASE_URL_SECOND is missing, exiting now")
-    exit()
-DATABASE_NAME_SECOND = environ.get("DATABASE_NAME_SECOND", "asphaltthree")
-COLLECTION_NAME_SECOND = environ.get("COLLECTION_NAME_SECOND", "Files")
-
 # Links
 SUPPORT_LINK = environ.get("SUPPORT_LINK", "https://t.me/Infohub_Tech")
 UPDATES_LINK = environ.get("UPDATES_LINK", "https://t.me/infohub_updates")
