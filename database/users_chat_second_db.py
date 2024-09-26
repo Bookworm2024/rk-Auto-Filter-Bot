@@ -177,7 +177,7 @@ class SecondDatabase:
         return self.grp.find({})
 
     async def get_db_size_second_db(self):
-        return (await mydb.command("dbstats"))["dataSize"]
+        return (await second_mydb.command("dbstats"))["dataSize"]
 
     async def get_user_second_db(self, user_id):
         user_data = await self.users.find_one({"id": user_id})
