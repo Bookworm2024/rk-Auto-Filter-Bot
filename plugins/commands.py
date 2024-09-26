@@ -10,7 +10,6 @@ from pyrogram.errors import ChatAdminRequired, FloodWait, ButtonDataInvalid
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id, delete_files
 from database.users_chats_db import db
-from database.users_chat_second_db import second_db
 from info import STICKERS_IDS,SUPPORT_GROUP ,INDEX_CHANNELS, ADMINS, FILMS_LINK, IS_VERIFY, VERIFY_TUTORIAL, VERIFY_EXPIRE, TUTORIAL, SHORTLINK_API, SHORTLINK_URL, AUTH_CHANNEL, DELETE_TIME, SUPPORT_LINK, UPDATES_LINK, LOG_CHANNEL, PICS, PROTECT_CONTENT, IS_STREAM, IS_FSUB, PAYMENT_QR
 from utils import get_settings, get_size, is_subscribed, is_check_admin, get_shortlink, get_verify_status, update_verify_status, save_group_settings, temp, get_readable_time, get_wish, get_seconds
 import requests
@@ -243,12 +242,10 @@ async def stats(bot, message):
     files = await Media.count_documents()
     users = await db.total_users_count()
     chats = await db.total_chat_count()
-    u_sizeone = get_size(await db.get_db_size())
-    f_sizeone = get_size(536870912 - await db.get_db_size())
-    u_sizetwo = get_size(await second_db.get_db_size_second_db())
-    f_sizetwo = get_size(536870912 - await db.get_db_size_second_db())
+    u_size = get_size(await db.get_db_size())
+    f_size = get_size(536870912 - await db.get_db_size())
     uptime = get_readable_time(time.time() - temp.START_TIME)
-    await msg.edit(script.STATUS_TXT.format(files, users, chats, u_sizeone, f_sizeone, u_sizetwo, f_sizetwo, uptime))    
+    await msg.edit(script.STATUS_TXT.format(files, users, chats, u_size, f_size, uptime))    
     
 @Client.on_message(filters.command('settings'))
 async def settings(client, message):
