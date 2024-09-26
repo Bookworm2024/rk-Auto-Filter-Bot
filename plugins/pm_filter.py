@@ -576,7 +576,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         users = await db.total_users_count()
         chats = await db.total_chat_count()
         u_size = get_size(await db.get_db_size())
-        f_size = get_size(536870912 - await db.get_db_siz())
+        f_size = get_size(536870912 - await db.get_db_size())
         u_sizetwo = get_size(await second_db.get_db_size_second_db())
         f_sizetwo = get_size(536870912 - await db.get_db_size_second_db())
         uptime = get_readable_time(time.time() - temp.START_TIME)
