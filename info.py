@@ -55,7 +55,7 @@ else:
 # Channels
 INDEX_CHANNELS = [
     int(index_channels) if index_channels.startswith("-") else index_channels
-    for index_channels in environ.get("INDEX_CHANNELS", "-1002282897226 -1002251367548").split()
+    for index_channels in environ.get("INDEX_CHANNELS", "-1002251367548 -1002317312223").split()
 ]
 if len(INDEX_CHANNELS) == 0:
     print("Info - INDEX_CHANNELS is empty")
@@ -81,11 +81,11 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://infohubstore06:A8YWSRxx4A3S2I12@asphaltfour.8sw7h.mongodb.net/?retryWrites=true&w=majority&appName=asphaltfour")  # mongo db url
+DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://infohubstore06:k0nWe2dRtGZ9hq91@asphaltfive.egs31.mongodb.net/?retryWrites=true&w=majority&appName=asphaltfive")  # mongo db url
 if len(DATABASE_URL) == 0:
     print("Error - DATABASE_URL is missing, exiting now")
     exit()
-DATABASE_NAME = environ.get("DATABASE_NAME", "asphaltfour")
+DATABASE_NAME = environ.get("DATABASE_NAME", "asphaltfive")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Files")
 
 # Links
