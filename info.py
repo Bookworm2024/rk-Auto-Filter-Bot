@@ -30,7 +30,7 @@ API_HASH = environ.get("API_HASH", "daa53f4216112ad22b8a8f6299936a46")  # api ha
 if len(API_HASH) == 0:
     print("Error - API_HASH is missing, exiting now")
     exit()
-BOT_TOKEN = environ.get("BOT_TOKEN", "7296278954:AAHe8cUGdesQdvWRdBrWGXz_Z_SLBICGtVw")  # bot token from botfather
+BOT_TOKEN = environ.get("BOT_TOKEN", "")  # bot token from botfather
 if len(BOT_TOKEN) == 0:
     print("Error - BOT_TOKEN is missing, exiting now")
     exit()
@@ -81,11 +81,11 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://infohubstore06:k0nWe2dRtGZ9hq91@asphaltfive.egs31.mongodb.net/?retryWrites=true&w=majority&appName=asphaltfive")  # mongo db url
+DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://infohubstore06:JJRrooRJzROP5J7y@gamingtwo.jqrir.mongodb.net/?retryWrites=true&w=majority&appName=gamingtwo")  # mongo db url
 if len(DATABASE_URL) == 0:
     print("Error - DATABASE_URL is missing, exiting now")
     exit()
-DATABASE_NAME = environ.get("DATABASE_NAME", "asphaltfive")
+DATABASE_NAME = environ.get("DATABASE_NAME", "gamingtwo")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Files")
 
 # Links
