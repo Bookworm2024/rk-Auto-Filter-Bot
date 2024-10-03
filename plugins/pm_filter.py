@@ -585,9 +585,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "my_owner":
         buttons = [[
-            InlineKeyboardButton(text=f"☎️ ᴄᴏɴᴛᴀᴄᴛ - {(await client.get_users(admin)).first_name}", user_id=admin)
+            InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴꜱ ☎️", url="https://t.me/infohubsupport_robot")
         ]
-            for admin in ADMINS
         ]
         buttons.append(
             [InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')]
