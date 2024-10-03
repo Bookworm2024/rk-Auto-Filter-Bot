@@ -556,8 +556,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "my_about":
         buttons = [[
-            InlineKeyboardButton('📊 sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('🔋 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('sᴛᴀᴛᴜs 📊', callback_data='stats'),
+            InlineKeyboardButton('ᴅɪꜱᴄʟᴀɪᴍᴇʀ ⚠️', url='https://graph.org/%F0%9D%95%AF%F0%9D%96%8E%F0%9D%96%98%F0%9D%96%88%F0%9D%96%91%F0%9D%96%86%F0%9D%96%8E%F0%9D%96%92%F0%9D%96%8A%F0%9D%96%97-%F0%9D%96%8B%F0%9D%96%94%F0%9D%96%97-%F0%9D%95%BF%F0%9D%96%8D%F0%9D%96%8A-%F0%9D%95%AF%F0%9D%96%8A%F0%9D%96%9B%F0%9D%96%8E%F0%9D%96%91%F0%9D%96%98-%F0%9D%95%BF%F0%9D%96%8D%F0%9D%96%8A%F0%9D%96%86%F0%9D%96%99%F0%9D%96%97%F0%9D%96%8A-10-03')
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]]
