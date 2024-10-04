@@ -536,16 +536,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.answer('Welcome!')
         buttons = [[
-            InlineKeyboardButton('⤬ 𝕵𝖔𝖎𝖓 𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑𝖘 𝕿𝖗𝖔𝖚𝖕𝖊 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton('𝕷𝖊𝖉𝖌𝖊𝖗 🩸', callback_data="my_about"),
-            InlineKeyboardButton('𝕽𝖊𝖛𝖊𝖑𝖆𝖙𝖎𝖔𝖓𝖘 👁️', callback_data='my_owner')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🩸', callback_data="my_about"),
+            InlineKeyboardButton('ᴅᴇᴛᴀɪʟꜱ 👁️', callback_data='my_owner')
         ],[
-            InlineKeyboardButton('𝕯𝖊𝖈𝖗𝖊𝖊 😈', callback_data='help'),
-            InlineKeyboardButton('𝕰𝖑𝖎𝖙𝖊 👹', callback_data='buy_premium')
+            InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅ 😈', callback_data='help'),
+            InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ 👹', callback_data='buy_premium')
         ],[
-            InlineKeyboardButton('𝕲𝖗𝖎𝖋𝖙 💸', callback_data='earn'),
-            InlineKeyboardButton('𝕮𝖔𝖛𝖊𝖓 🕯️', url=FILMS_LINK)
+            InlineKeyboardButton('ᴇᴀʀɴ 💸', callback_data='earn'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 🕯️', url=FILMS_LINK)
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
