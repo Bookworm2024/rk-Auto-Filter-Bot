@@ -91,7 +91,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "Files")
 # Links
 SUPPORT_LINK = environ.get("SUPPORT_LINK", "https://t.me/Infohub_Tech")
 UPDATES_LINK = environ.get("UPDATES_LINK", "https://t.me/infohub_updates")
-FILMS_LINK = environ.get("FILMS_LINK", "https://t.me/movies_series_requestt")
+FILMS_LINK = environ.get("FILMS_LINK", "https://t.me/Cinemas_Movies_Webseries")
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/infohub_updates")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/infohub_updates/34")
 
