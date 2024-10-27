@@ -68,7 +68,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ 🩸', callback_data="my_about"),
                     InlineKeyboardButton('ᴅᴇᴛᴀɪʟꜱ 👁️', callback_data='my_owner')
-                ][
+                ],[
                     InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅꜱ 😈', callback_data='help'),
                     InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ 👹', callback_data='buy_premium')
                 ],[
