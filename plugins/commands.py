@@ -576,7 +576,7 @@ async def remove_premium_cmd_handler(client, message):
         else:
             await message.reply_text("Invalid time format.'")
     else:
-        await message.reply_text("Usage: /remove_premium user_id")
+        await message.reply_i("Usage: /remove_premium user_id")
         
 @Client.on_message(filters.command("plans"))
 async def plans_cmd_handler(client, message):                
