@@ -91,7 +91,7 @@ I can't find the <b>{}</b> file in my database! 🥲
 
     FILE_CAPTION = """<i>{file_name}</i>
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ / ꜱᴇʀɪᴇꜱ 🚫"""
+🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ᴏɴᴄᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴡᴀᴛᴄʜᴇᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ / ꜱᴇʀɪᴇꜱ 🚫"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
